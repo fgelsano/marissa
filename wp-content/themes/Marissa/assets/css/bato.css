@@ -1,0 +1,279 @@
+.bato-main-banner{
+	height: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+.bato-main-banner .banner-overlay{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	background-color: #000;
+	top:0;
+	left: 0;
+	opacity: .4;
+}
+.bato-main-banner .container{
+	position: relative;
+	height: 100%;
+}
+.bato-main-banner .container .banner-content{
+	position: relative;
+	padding-top: 150px;
+	width: 100%;
+	padding-left: 7%;
+	margin-bottom: 12%;
+}
+.bato-main-banner .container .banner-content h2{
+	color: #ffd200;
+	font-family: Circa;
+	font-size: 4em;
+	line-height: 50px;
+}
+.bato-main-banner .container .banner-content .border-white{
+	width: 300px;
+	height: 5px;
+	background-color: #fff;
+	margin:15px 0;
+}
+.bato-main-banner .container .banner-content .branch-content{
+	padding:10px 20px;
+	background-color: #bcbabe;
+	width: 300px;
+	margin-bottom: 10px;
+	
+}
+.bato-main-banner .container .banner-content .branch-content h2{
+	font-family: Dosis M;
+	font-size: 2.2em;
+	text-align: center;
+	color:#000;
+}
+.bato-main-banner .container .banner-content p{
+	color:#fff;
+	font-size: 1.2em;
+}
+.bato-main-banner .container .banner-content .flex-info-p{
+	display: flex;
+	width: 430px;
+	border-bottom: 2px solid #ffd200;
+}
+.bato-main-banner .container .banner-content .flex-info-p p{
+	flex:1;
+}
+.botique-content-1{
+	padding:2%;
+}
+.botique-content-1 .botique-header-label .botique-flex{
+	display: flex;
+	margin-bottom: 5%;
+}
+.botique-content-1 .botique-header-label .botique-flex .botique-flex-1{
+	flex: 1;
+	display: flex;
+	align-items: flex-end;
+	position: relative;
+	width: 100%;
+}
+.botique-content-1 .botique-header-label .botique-flex .botique-flex-1:last-child{
+	flex-basis: 70%;
+}
+.botique-content-1 .botique-header-label .botique-flex .botique-flex-1 img{
+	width: 50px;
+}
+.botique-content-1 .botique-header-label .botique-flex .botique-flex-1 h2{
+	font-family: Circa;
+	color:#707070;
+	font-size: 5em;
+	margin: 0;
+	position: relative;
+	top:15px;
+}
+.botique-content-1 .botique-header-label .botique-flex .botique-flex-1 .border-box{
+	position: absolute;
+	height: 8px;
+	width: 100%;
+	bottom: 0;
+	background-color: #707070;
+}
+.botique-inner-flex > img{
+	width: 100%;
+	height: 100%;
+}
+.inner-flex-content,
+.botique-flex-2{
+	display: flex;
+}
+.inner-flex-1,
+.botique-inner-flex{
+	flex:1;
+}
+.botique-inner-flex:first-child{
+	margin-right: 10px;
+}
+.botique-inner-flex > h2{
+	font-family: Dosis;
+	color:#707070;
+	font-size: 3.2em;
+}
+.botique-inner-flex > h2 span{
+	font-family: Glou;
+	font-size: 2em;
+}
+.inner-flex-1{
+	margin:4px;
+}
+.inner-flex-1 img{
+	width: 100%;
+}
+.botique-content-1 .botique-header-label .botique-flex-2{
+	display: flex;
+}
+.botique-content-1 .botique-header-label .botique-flex-2 .botique-inner-flex-1{
+	flex:1;
+	margin:10px;
+}
+.botique-content-1 .botique-header-label .botique-flex-2 .botique-inner-flex-1 img{
+	width: 100%;
+	height: 100%;
+}
+.flower-shop{
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex .botique-flex-1:first-child{
+	flex-basis: 100%;
+}
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex .botique-flex-1 .border-box{
+	background-color: #ffd200;
+	bottom: 20px;
+	height: 15px;
+}
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex .botique-flex-1:last-child{
+	background-color: #ffd200;
+	display: flex;
+}
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex .botique-flex-1:last-child h2{
+	flex:1;
+	top:0;
+	text-align:center;
+	color:#fff;
+}
+.flower-content .container .botique-content-1 .botique-header-label .feat-attire .botique-flex-2 .botique-inner-flex h2{
+	color: #fff;
+}
+.flower-content .container .botique-content-1 .botique-header-label .feat-attire .botique-flex-2 .botique-inner-flex h2 span{
+	color:#ffd200;
+}
+.botique-content-1 .botique-header-label > .feat-attire .botique-flex-2 .botique-inner-flex .inner-flex-content .inner-flex-1{
+	position: relative;
+	overflow: hidden;
+}
+.botique-content-1 .botique-header-label > .feat-attire .botique-flex-2 .botique-inner-flex,
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex-2 .botique-inner-flex:first-child{
+	position: relative;
+	overflow: hidden;
+}
+
+.botique-content-1 .botique-header-label > .feat-attire .botique-flex-2 .botique-inner-flex .inner-flex-content .inner-flex-1:hover .show-flex-info,
+.botique-content-1 .botique-header-label > .feat-attire .botique-flex-2 .botique-inner-flex:last-child:hover .show-flex-info,
+.botique-content-1 .botique-header-label > .feat-attire .botique-flex-2 .botique-inner-flex-1:hover .show-flex-info,
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex-2 .botique-inner-flex:first-child:hover .show-flex-info{
+	right: 0;
+	transition: right .3s ease-in-out, right .3s ease-in-out;
+}
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex-2 .botique-inner-flex:last-child:hover .show-flex-info{
+	right: -220px;
+}
+.flower-content .container .botique-content-1 .botique-header-label .botique-flex-2 .botique-inner-flex:last-child .inner-flex-content .inner-flex-1:hover .show-flex-info{
+	right: 0;
+	transition: right .3s ease-in-out, right .3s ease-in-out;
+}
+.botique-content-1 .botique-header-label > .feat-attire .botique-flex-2 .botique-inner-flex-1{
+	position: relative;
+	overflow: hidden;
+}
+.google-maps{
+	position: relative;
+}
+.google-maps .maps-overlay{
+	position: absolute;
+	width: 100%;
+	height:100%;
+	background-color: #000;
+	opacity: .4;
+	top:0;
+	left: 0;
+	z-index: 2;
+}
+.google-maps .map{
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 0;
+	width: 100%;
+	height: 100%;
+}
+.google-maps .contact-content{
+	max-width: 1400px;
+	margin:0 auto;
+}
+.google-maps .contact-content .contact-form{
+	display: flex;
+	position: relative;
+	z-index: 99;
+	padding:0 5%;
+	padding-top: 20%;
+	padding-bottom: 10%;
+}
+.google-maps .contact-content .contact-form .contact-flex{
+	flex:1;
+	margin:20px 10px;
+}
+.google-maps .contact-content .contact-form .contact-flex:first-child{
+	flex-basis: 30%;
+	background-color: #fff;
+	padding:2% 4%;
+}
+.google-maps .contact-content .contact-form .contact-flex:last-child{
+	background-color: #ffd200;
+	padding:2% 4%;
+}
+.google-maps .contact-content .contact-form .contact-flex form .form-group .form-control{
+	border-radius: 0;
+
+}
+.google-maps .contact-content .contact-form .contact-flex form .submit{
+	width: 100%;
+	text-align: center;
+}
+.google-maps .contact-content .contact-form .contact-flex form .submit .btn{
+	background-color: #ffd200;
+	border-radius: 0;
+	border:none;
+	padding:10px 3em;
+	color:#000;
+}
+.google-maps .contact-content .contact-form .contact-flex .contact-info-flex-inner img{
+	width: 40px;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.google-maps .contact-content .contact-form .contact-flex .contact-info-flex-inner{
+	position: relative;
+	margin-bottom: .6em;
+}
+.google-maps .contact-content .contact-form .contact-flex .contact-info-flex-inner p{
+	padding:10px 0;
+	padding-left: 50px;
+	margin:0;
+}
+.google-maps .contact-content .contact-form .contact-flex .info-links{
+	text-align: center;
+	margin:1em 0;
+}
+.google-maps .contact-content .contact-form .contact-flex .info-links span{
+	font-size: 2.4em;
+	margin:0 5px;
+}

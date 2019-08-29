@@ -1,0 +1,37 @@
+#marissa_meta .inside #galimages{
+    width: 100%;
+    height: 100%;
+    display: table;
+}
+#marissa_meta .inside #galimages .gal-content{
+    float: left;
+    width: 16.66%;
+    margin-bottom: 6px;
+}
+#marissa_meta .inside #galimages .gal-content .gal-inner{
+    width: 100%;
+    padding:4px;
+    box-sizing: border-box;
+    position: relative;
+}
+/* #marissa_meta .inside #galimages .gal-content .gal-inner > a{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color:red;
+    font-weight: bolder;
+    padding:8px 8px;
+    border:1px solid #ccc;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+#marissa_meta .inside #galimages .gal-content .gal-inner > a:hover{
+    transform: scale(1.2);
+} */
+#marissa_meta .inside #galimages .gal-content .gal-inner img{
+    width: 100%;
+    height: 200px;
+}
+#marissa_meta .inside #galimages .gal-content .gal-inner .desc input{
+    width: 100%;
+}

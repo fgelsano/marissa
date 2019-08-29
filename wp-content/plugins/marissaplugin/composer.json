@@ -1,0 +1,17 @@
+{
+    "name": "juniordevz/marissaplugin",
+    "description": "This is custom marissa plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Marnito",
+            "email": "marnimahinlo@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

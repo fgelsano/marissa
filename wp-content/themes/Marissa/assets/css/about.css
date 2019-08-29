@@ -1,0 +1,76 @@
+.about-main-banner{
+	max-height: 800px;
+}
+.about-main-banner .container .about-banner-content{
+	padding: 0 2em;
+	padding-top: 300px;
+	padding-bottom: 2.5em;
+}
+.about-main-banner .container .about-banner-content h2{
+	font-size: 6em;
+	color:#ffd200;
+
+}
+.about-main-banner .container .about-banner-content h2 span{
+	color: #fff;
+}
+.about-tab .container .tab-info-link{
+	text-align: center;
+	display: flex;
+	margin-bottom: 3em;
+}
+
+.about-tab .container .tab-info-link .btn{
+	flex:1;
+	background-color: #d9dadc;
+	padding:1em 3em;
+	border:none;
+	border-radius: 0;
+	position: relative;
+	top:-20px;
+	margin-right: 20px;
+	color:#707070;
+	font-weight: bolder;
+}
+.about-tab .container .tab-info-link .active{
+	background-color: #ffd200;
+}
+.about-tab .container .tab-info-link .btn:last-child{
+	margin-right: 0;
+}
+.about-tab .container > p{
+	margin-bottom: 2em;
+	text-align: center;
+}
+.about-tab .container .founder{
+	text-align: center;
+	margin-bottom: 20px;
+}
+.about-tab .container .founder h2{
+	background-color:#d9dadc; 
+	border:none;
+	border-radius: 0;
+	color:#000;
+	font-weight:bolder;
+	padding:1em 4em;
+}
+.about-tab .container .founder-image{
+	display: flex;
+	justify-content: center;
+	margin-bottom: 50px;
+}
+.about-tab .container .founder-image .founder-image-content{
+	text-align: center;
+	width: 300px;
+	display: inline-block;
+	margin:0 15px;
+}
+.about-tab .container .founder-image .founder-image-content img{
+	width: 100%;
+}
+.about-tab .container .founder-image .founder-image-content p{
+	background-color: #d9dadc;
+	margin:0;
+	padding:10px 0;
+	margin-top: 20px;
+}

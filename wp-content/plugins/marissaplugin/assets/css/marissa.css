@@ -1,0 +1,72 @@
+#marissa-plugin{
+    padding-top: 30px;
+    width: 100%;
+}
+#marissa-plugin .marissa-body{
+    padding:4px;
+}
+#marissa-plugin .marissa-body p{
+    font-size: 1.8em;
+}
+#marissa-plugin .marissa-body .input-field{
+    margin-bottom: 15px;
+}
+#marissa-plugin .marissa-body .input-field label{
+    width: 100%;
+    display: block;
+    margin-bottom: 15px;
+}
+#marissa-plugin .marissa-body .input-field input{
+    width: 50%;
+    height: 30px;
+    padding-left: 20px;
+    display: block;
+}
+#marissa-plugin .marissa-body .input-field textarea{
+    width: 50%;
+}
+/* #marissa-plugin .marissa-body .input-field input[type='submit']{
+    width: 60px;
+    height: 30px;
+    background-color:#0b7dda;
+    text-align: center;
+    padding:0;
+} */
+#marissa-plugin .marissa-body .gallery-images .gal-content{
+    display: flex;
+    width: 50%;
+    margin-bottom: 30px;
+}
+
+#marissa-plugin .marissa-body .gallery-images .gal-content .image-content{
+    flex: 1;
+    margin-right: 20px;
+    text-align: right;
+}
+#marissa-plugin .marissa-body .gallery-images .gal-content .image-content > img{
+    width: 150px;
+}
+#marissa-plugin .marissa-body .gallery-images .gal-content .input-content{
+    width: 40%;
+    flex: 2;
+}
+#marissa-plugin .marissa-body .gallery-images .gal-content .input-content > input{
+    width: 100%;
+    margin-top: 10px;
+}
+.marissa-gal .container .mar-gal,
+.marissa-gal .container table thead,
+.marissa-gal .container table tbody{
+    width: 100%;
+    display: block !important;
+}
+.marissa-gal .container table thead tr,
+.marissa-gal .container table tbody tr{
+    width: 100%;
+    display: flex;
+}
+.marissa-gal .container table thead tr th,
+.marissa-gal .container table tbody tr td{
+    flex:1;
+    text-align: left;
+}
